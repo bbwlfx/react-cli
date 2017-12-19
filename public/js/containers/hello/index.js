@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './scss/hello.scss';
+import './scss/hello.less';
 
 export default class Hello extends Component {
   constructor() {
