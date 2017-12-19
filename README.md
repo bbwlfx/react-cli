@@ -10,9 +10,10 @@ This is what new react application have:
 1. pm2 to start and watch the app(node >= 8.0.0)
 2. ES6 support via babel
 3. sass support via sass-loader
-4. use koa framework
-5. use jade/pug template
-6. use webpack to build resources
+4. less support via less-loader
+5. use koa framework
+6. use jade/pug template
+7. use webpack to build resources
 
 ## Directory Structure
 * react-cli/

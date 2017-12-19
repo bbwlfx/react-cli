@@ -6,11 +6,12 @@
 ## 技术栈
 以下是项目中使用的技术栈:
 1. 使用pm2进程管理工具启动和监控app(node >= 8.0.0)
-2. 使用ES6语法
-3. 使用sass样式
-4. 使用KOA框架
-5. 使用jade/pug模板
-6. 使用webpack打包前端资源
+2. 支持ES6语法
+3. 支持sass语法
+4. 支持less语法
+5. 使用KOA框架
+6. 使用jade/pug模板
+7. 使用webpack打包前端资源
 ## 文件结构
 * react-cli/
   * public/
