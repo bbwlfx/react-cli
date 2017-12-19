@@ -2,9 +2,20 @@ import React, { Component } from 'react';
 import './scss/hello.scss';
 
 export default class Hello extends Component {
+  constructor() {
+    super();
+    this.list = [
+      'HELLO WORLD!',
+      'THX FOR USING REACT_CLI'
+    ];
+  }
   render() {
     return (
-      <div>Hello World!</div>
+      <div>
+        {
+          this.list.map(item => <div>{item}</div>)
+        }
+      </div>
     );
   }
 }
