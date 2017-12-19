@@ -32,7 +32,6 @@ This is what new react application have:
   * template/
   * node_modules/
   * webpack.config.js
-
 ## Usage
 1. `npm install`
 2. `npm run start`

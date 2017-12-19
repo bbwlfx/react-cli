@@ -29,7 +29,6 @@
   * template/
   * node_modules/
   * webpack.config.js
-
 ## 如何启动Demo
 1. `npm install`
 2. `npm run start`
