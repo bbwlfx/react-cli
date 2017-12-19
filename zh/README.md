@@ -12,23 +12,23 @@
 5. 使用jade/pug模板
 6. 使用webpack打包前端资源
 ## 文件结构
-* react-cli/
-  * public/
-    * image/
-    * scss/
-    * js/
-      * components/
-      * containers/
-      * lib/
-      * routes/
-      * pages/
-  * src/
-    * routes/
-    * controllers/
-    * app.js
-  * template/
-  * node_modules/
-  * webpack.config.js
+|react-cli/
+|---public/
+|-------image/
+|-------scss/
+|-------js/
+|-------components/
+|-------containers/
+|-------lib/
+|-------routes/
+|-------pages/
+|---src/
+|-------routes/
+|-------controllers/
+|-------app.js
+|---template/
+|---node_modules/
+|---webpack.config.js
 
 ## 如何启动Demo
 1. `npm install`

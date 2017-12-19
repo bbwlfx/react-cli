@@ -15,23 +15,23 @@ This is what new react application have:
 6. use webpack to build resources
 
 ## Directory Structure
-* react-cli/
-  * public/
-    * image/
-    * scss/
-    * js/
-      * components/
-      * containers/
-      * lib/
-      * routes/
-      * pages/
-  * src/
-    * routes/
-    * controllers/
-    * app.js
-  * template/
-  * node_modules/
-  * webpack.config.js
+|react-cli/
+|---public/
+|-------image/
+|-------scss/
+|-------js/
+|-------components/
+|-------containers/
+|-------lib/
+|-------routes/
+|-------pages/
+|---src/
+|-------routes/
+|-------controllers/
+|-------app.js
+|---template/
+|---node_modules/
+|---webpack.config.js
 
 ## Usage
 1. `npm install`
