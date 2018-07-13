@@ -9,10 +9,6 @@ export default class Hello extends Component {
       'HELLO WORLD!',
       'THX FOR USING REACT_CLI'
     ];
-    const demo1 = 1, demo2 = 2;
-    if(demo1 === 1 && demo2 === 2) {
-      this.demo = true;
-    }
   }
 
   render() {
