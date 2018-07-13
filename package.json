@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/pm2/bin/pm2 start src/app.js -n React-cli --watch",
     "precommit": "lint-staged",
+    "format:js": "prettier-eslint --write \"public/**/*.{js,jsx}\" \"src/**/*.{js,jsx}\"",
     "startfe": "webpack-dev-server --progress --devtool cheap-module-source-map"
   },
   "lint-staged": {
