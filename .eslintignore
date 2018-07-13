@@ -1,1 +1,3 @@
 package.json
+*.scss
+*.less
