@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/pm2/bin/pm2 start src/app.js -n React-cli --watch",
+    "precommit": "lint-staged",
     "startfe": "webpack-dev-server --progress --devtool cheap-module-source-map"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier-eslint --write --",
+      "eslint --fix",
+      "git add"
+    ]
   },
   "keywords": [
     "react-cli",
@@ -46,5 +54,9 @@
     "style-loader": "^0.19.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint-config-recommended": "^3.0.0"
   }
 }
