@@ -10,9 +10,13 @@
     "startfe": "webpack-dev-server --progress --devtool cheap-module-source-map"
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js,jsx}": [
       "prettier-eslint --write",
       "eslint --fix",
+      "git add"
+    ],
+    "*.{css,scss}": [
+      "stylelint --syntax=scss --fix",
       "git add"
     ]
   },
@@ -25,23 +29,31 @@
     "react-init",
     "init"
   ],
+  "prettier": {
+    "singleQuote": true,
+    "semi": true
+  },
   "author": "muyu",
   "license": "MIT",
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.6",
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.7",
+    "eslint-config-recommended": "^3.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
+    "husky": "^0.14.3",
     "koa": "^2.4.1",
     "koa-body": "^2.5.0",
     "koa-pug": "^3.0.0-2",
     "koa-router": "^7.3.0",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
+    "lint-staged": "^7.2.0",
     "node-sass": "^4.7.2",
     "pm2": "^2.9.1",
     "prop-types": "^15.6.0",
@@ -56,7 +68,7 @@
     "webpack-dev-server": "^2.9.7"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint-config-recommended": "^3.0.0"
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }

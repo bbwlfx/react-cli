@@ -5,19 +5,17 @@ import './scss/hello.less';
 export default class Hello extends Component {
   constructor() {
     super();
-    this.list = [
-      'HELLO WORLD!',
-      'THX FOR USING REACT_CLI'
-    ];
+    this.list = ['HELLO WORLD!', 'THX FOR USING REACT_CLI'];
+    const demo1 = 1,
+      demo2 = 2;
+    if (demo1 === 1 && demo2 === 2) {
+      this.demo = true;
+    }
   }
 
   render() {
     return (
-      <div>
-        {
-          this.list.map((item, index) => <div key={index}>{item}</div>)
-        }
-      </div>
+      <div>{this.list.map((item, index) => <div key={index}>{item}</div>)}</div>
     );
   }
 }
