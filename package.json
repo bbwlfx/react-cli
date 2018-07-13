@@ -10,7 +10,7 @@
     "startfe": "webpack-dev-server --progress --devtool cheap-module-source-map"
   },
   "lint-staged": {
-    "*.{js,jsx}": [
+    "*.js": [
       "prettier-eslint --write --",
       "eslint --fix",
       "git add"

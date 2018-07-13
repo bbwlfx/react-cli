@@ -12,6 +12,7 @@ export default class Hello extends Component {
     const demo1 = 1, demo2 = 2;
     if(demo1 === 1 && demo2 === 2) {
       this.demo = true;
+      console.log('asdf');
     }
   }
 
