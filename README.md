@@ -3,11 +3,13 @@
 A simple tool to automate some base structure and config when using webpack and React in your project.
 
 ## Install
-`npm i -g crc-cli`
+`$ npm i -g crc-cli`
 
 ## How to use
 ```
 $ crc-cli [-n][name]
+
+
 
 options:
   -n, --name    Name of the react-project-directory
