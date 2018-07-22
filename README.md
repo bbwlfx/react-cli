@@ -2,8 +2,18 @@
 # React-cli
 A simple tool to automate some base structure and config when using webpack and React in your project.
 
-## Installation
-`git clone https://github.com/bbwlfx/react-cli.git`
+## Install
+`npm i -g crc-cli`
+
+## How to use
+```
+$ crc-cli [-n][name]
+
+options:
+  -n, --name    Name of the react-project-directory
+```
+
+
 
 ## Used Tech
 This is what new react application have:

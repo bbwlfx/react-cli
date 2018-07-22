@@ -1,7 +1,14 @@
 # React-cli
 帮你自动生成基于webpack和react技术栈文件结构的工具
 ## 安装使用
-`git clone https://github.com/bbwlfx/react-cli.git`
+`npm i -g crc-cli`
+
+## 如何使用
+```
+crc-cli [-n][name]
+options:
+  1.-n, --name    创建文件夹的名字
+```
 
 ## 技术栈
 以下是项目中使用的技术栈:
