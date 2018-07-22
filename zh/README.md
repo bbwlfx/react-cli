@@ -5,12 +5,12 @@
 
 ## 如何使用
 ```
-crc-cli [-n][name]
+$ crc-cli [-n][name]
 
 
 
 options:
-  1.-n, --name    创建文件夹的名字
+  -n, --name    创建文件夹的名字
 ```
 
 ## 技术栈
